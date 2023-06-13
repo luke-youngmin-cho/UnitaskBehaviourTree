@@ -1,7 +1,7 @@
 using System;
 using Cysharp.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public class Condition : Node, IChildParent
     {

@@ -1,8 +1,8 @@
 using Cysharp.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
-    public class Selector : Composite
+    public class Sequence : Composite
     {
         public override async UniTask<bool> Invoke()
         {
@@ -10,11 +10,11 @@ namespace AISystems.BT
             foreach (var child in children)
             {
                 result = await child.Invoke();
-                if (result == true)
+                if (result == false)
                     return result;
             }
 
-            return false;
+            return true;
         }
     }
 }

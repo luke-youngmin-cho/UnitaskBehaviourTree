@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using System.Diagnostics;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     internal class Parallel : Composite
     {

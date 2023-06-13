@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public abstract class Composite : Node, IChildrenParent
     {

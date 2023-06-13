@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using System;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     /// <summary>
     /// This Execution task can be paused & resume.

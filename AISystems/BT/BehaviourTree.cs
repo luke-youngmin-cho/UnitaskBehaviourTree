@@ -1,4 +1,4 @@
-using RPG.Threading;
+using Novike.Threading;
 using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Concurrent;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Dev : Luke
+/// Dev : Novike (Luke Cho)
 /// Date : 2023-06-13
 /// This behavior tree is designed as a model that can wait and resume tree search at a specific node. 
 /// Can wait / pause / interrupt many tasks parallelly.
@@ -14,7 +14,7 @@ using UnityEngine;
 /// Derive the standard nodes to make your own nodes.
 /// Open mind in any opinion.
 /// </summary>
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     /// <summary>
     /// How to build the tree : 

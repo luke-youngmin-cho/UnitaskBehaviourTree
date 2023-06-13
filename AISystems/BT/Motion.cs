@@ -2,7 +2,7 @@
 using RPG.GameElements;
 using UnityEngine;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     /// <summary>
     /// Example that how to implement exeuction for an action with animation motion

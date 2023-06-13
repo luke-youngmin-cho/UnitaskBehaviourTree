@@ -1,12 +1,12 @@
 using Cysharp.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
-    public class Failure : Node
+    public class Success : Node
     {
         public override async UniTask<bool> Invoke()
         {
-            return false;
+            return true;
         }
     }
 }

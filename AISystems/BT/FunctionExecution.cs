@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     /// <summary>
     /// This is simple Execution task can delegate with Func. 

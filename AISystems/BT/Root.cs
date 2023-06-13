@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public class Root : Node, IChildParent
     {

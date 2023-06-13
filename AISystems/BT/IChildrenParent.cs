@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public interface IChildrenParent
     {

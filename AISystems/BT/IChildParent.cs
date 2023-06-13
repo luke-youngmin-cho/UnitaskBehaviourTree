@@ -1,4 +1,4 @@
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public interface IChildParent
     {

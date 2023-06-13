@@ -2,7 +2,7 @@ using Cysharp.Threading.Tasks;
 using System;
 using System.Linq;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public class RandomSequence : Composite
     {

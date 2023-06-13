@@ -1,15 +1,13 @@
 using Cysharp.Threading.Tasks;
-using System;
-using System.Linq;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
-    public class RandomSelector : Composite
+    public class Selector : Composite
     {
         public override async UniTask<bool> Invoke()
         {
             bool result;
-            foreach (var child in children.OrderBy(c => Guid.NewGuid()))
+            foreach (var child in children)
             {
                 result = await child.Invoke();
                 if (result == true)

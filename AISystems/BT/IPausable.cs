@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public interface IPausable
     {

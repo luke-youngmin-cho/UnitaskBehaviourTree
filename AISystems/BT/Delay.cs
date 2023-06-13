@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace AISystems.BT
+namespace Novike.AISystems.BT
 {
     public class Delay : Node, IChildParent, IPausable
     {
